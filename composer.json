@@ -1,0 +1,39 @@
+{
+	"name": "proginow/template",
+	"description": "Proginow Framework Template Engine Library,Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": ["laravel", "blade"],
+	"require": {
+	  "php": ">=8.2.0",
+	  "illuminate/view": "*",
+	  "illuminate/events": "*"
+	},
+	"authors": [
+	  {
+		"name": "Proginow",
+		"email": "info@proginow.com",
+		"homepage": "https://proginow.com",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/proginow/template"
+	  }
+	],
+	"support": {
+		  "email": "info@proginow.com"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Proginow\\Blade\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+  }
